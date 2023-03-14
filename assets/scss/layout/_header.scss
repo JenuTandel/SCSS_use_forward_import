@@ -1,0 +1,14 @@
+// @use '../components/index' as c;
+@use '../vendor/bootstrap-base' as bootstrap;
+@use '../base/colors' as c;
+
+ol {
+    li {
+        // font-size: c.$horizontal-list-gap;
+        color: bootstrap.$primary;
+    }
+}
+
+h2 {
+    color: c.$primary;
+}

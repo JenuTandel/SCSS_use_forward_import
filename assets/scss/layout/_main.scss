@@ -1,0 +1,10 @@
+// @use '../components/index' as c;
+
+
+.div1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    // @include c.rounded;
+    // border-radius: $-radius;
+}

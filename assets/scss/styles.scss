@@ -1,0 +1,20 @@
+// @use 'base/colors';
+// @use 'base/colors' as c;
+// @use 'layout/header';
+// @use 'base/colors' as *;
+
+// h1 {
+//     color: colors.$h1-color;
+// }
+
+// h1 {
+//     color: c.$h1-color;
+// }
+
+// @use 'base/colors' as c;
+@use 'vendor/bootstrap-base';
+@use 'vendor/bootstrap-components';
+@use 'lib/library.scss';
+@use 'base/base';
+@use 'components/components';
+@use 'layout/layout';

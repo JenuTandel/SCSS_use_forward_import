@@ -1,0 +1,19 @@
+@use '../base/base' as c;
+// @use '../base/index' as base;
+
+// .my-component {
+//     color: c.$black;
+// }
+
+.my-component {
+    // color: base.$black;
+    color: c.$component-color;
+}
+
+ul {
+
+    li {
+        // font-size: base.$horizontal-list-gap;
+        // @include base.list-horizontal;
+    }
+}
